@@ -8,7 +8,7 @@ namespace ClockObserverUnitTest
     public class UnitTest1
     {
         [TestMethod]
-        public void TestTimeSink01()
+        public void TestTimeSink01_OneSink()
         {
             /* 创建观察者和被观察者对象 */
             MockTimeSource mockTimeSource = new MockTimeSource();
@@ -26,7 +26,7 @@ namespace ClockObserverUnitTest
         }
 
         [TestMethod]
-        public void TestTimeSink02()
+        public void TestTimeSink02_TwoSink()
         {
             /* 创建观察者和被观察者对象 */
             MockTimeSource mockTimeSource = new MockTimeSource();
@@ -49,7 +49,7 @@ namespace ClockObserverUnitTest
         }
 
         [TestMethod]
-        public void TestTimeSink03()
+        public void TestTimeSink03_ChangeTwice()
         {
             /* 创建观察者和被观察者对象 */
             MockTimeSource mockTimeSource = new MockTimeSource();
