@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockObserver", "01.Observe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockObserverUnitTest", "01.Observer\ClockObserverUnitTest\ClockObserverUnitTest.csproj", "{1304B92E-930E-40E7-BF78-E7A022AB54E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractServer", "02.AbstractServer\AbstractServer\AbstractServer.csproj", "{4FB06741-B3A5-4DD9-96DB-13F443CEC8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractServerUnitTest", "02.AbstractServer\AbstractServerUnitTest\AbstractServerUnitTest.csproj", "{8CFF1A56-89E9-4934-93E4-CB5CCFD449A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1304B92E-930E-40E7-BF78-E7A022AB54E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1304B92E-930E-40E7-BF78-E7A022AB54E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1304B92E-930E-40E7-BF78-E7A022AB54E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB06741-B3A5-4DD9-96DB-13F443CEC8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB06741-B3A5-4DD9-96DB-13F443CEC8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB06741-B3A5-4DD9-96DB-13F443CEC8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB06741-B3A5-4DD9-96DB-13F443CEC8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFF1A56-89E9-4934-93E4-CB5CCFD449A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFF1A56-89E9-4934-93E4-CB5CCFD449A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFF1A56-89E9-4934-93E4-CB5CCFD449A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFF1A56-89E9-4934-93E4-CB5CCFD449A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
