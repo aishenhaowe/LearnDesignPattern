@@ -10,9 +10,8 @@ namespace AdapterUnitTest
         [TestMethod]
         public void TestMethod01()
         {
-            Light light = new Light();
-            LightAdapter lightAdapter = new LightAdapter(light);
-            MySwitch mySwitch = new MySwitch(lightAdapter);
+            LightAdapter light = new LightAdapter();
+            MySwitch mySwitch = new MySwitch(light);
 
             Assert.AreEqual(0, light.GetState());
         }
@@ -20,9 +19,8 @@ namespace AdapterUnitTest
         [TestMethod]
         public void TestMethod02()
         {
-            Light light = new Light();
-            LightAdapter lightAdapter = new LightAdapter(light);
-            MySwitch mySwitch = new MySwitch(lightAdapter);
+            LightAdapter light = new LightAdapter();
+            MySwitch mySwitch = new MySwitch(light);
 
             mySwitch.SwitchOn();
             Assert.AreEqual(1, light.GetState());
@@ -31,9 +29,8 @@ namespace AdapterUnitTest
         [TestMethod]
         public void TestMethod03()
         {
-            Light light = new Light();
-            LightAdapter lightAdapter = new LightAdapter(light);
-            MySwitch mySwitch = new MySwitch(lightAdapter);
+            LightAdapter light = new LightAdapter();
+            MySwitch mySwitch = new MySwitch(light);
 
             mySwitch.SwitchOff();
             Assert.AreEqual(0, light.GetState());
@@ -42,9 +39,8 @@ namespace AdapterUnitTest
         [TestMethod]
         public void TestMethod04()
         {
-            Light light = new Light();
-            LightAdapter lightAdapter = new LightAdapter(light);
-            MySwitch mySwitch = new MySwitch(lightAdapter);
+            LightAdapter light = new LightAdapter();
+            MySwitch mySwitch = new MySwitch(light);
 
             mySwitch.SwitchOn();
             Assert.AreEqual(1, light.GetState());
@@ -55,9 +51,8 @@ namespace AdapterUnitTest
         [TestMethod]
         public void TestMethod05()
         {
-            Light light = new Light();
-            LightAdapter lightAdapter = new LightAdapter(light);
-            MySwitch mySwitch = new MySwitch(lightAdapter);
+            LightAdapter light = new LightAdapter();
+            MySwitch mySwitch = new MySwitch(light);
 
             mySwitch.SwitchOn();
             Assert.AreEqual(1, light.GetState());

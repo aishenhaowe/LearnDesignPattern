@@ -6,22 +6,18 @@ using System.Threading.Tasks;
 
 namespace Adapter
 {
-    public class LightAdapter : ISwitchAble
+    public class LightAdapter : Light, ISwitchAble
     {
         private Light _light;
-        public LightAdapter(Light light)
-        {
-            _light = light;
-        }
 
         public void TurnOn()
         {
-            _light.TurnOn();
+            base.TurnOn();
         }
 
         public void TurnOff()
         {
-            _light.TurnOff();
+            base.TurnOff();
         }
     }
 }
