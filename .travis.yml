@@ -1,2 +1,2 @@
 language: csharp
-solution: DesignPattern_CSharp.sln
+solution: DesignPattern_CSharp_CI.sln
