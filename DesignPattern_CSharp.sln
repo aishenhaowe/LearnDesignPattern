@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "03.Adapter\Adapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterUnitTest", "03.Adapter\AdapterUnitTest\AdapterUnitTest.csproj", "{F33794A1-84AF-4432-8725-B868B9F75816}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "04.Proxy\Proxy\Proxy.csproj", "{62CFC6E0-55A1-47AB-A7AB-4103848E9A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyUnitTest", "04.Proxy\ProxyUnitTest\ProxyUnitTest.csproj", "{6C0A9D42-7B3E-4B34-B62C-292BC6CB8A5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{F33794A1-84AF-4432-8725-B868B9F75816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F33794A1-84AF-4432-8725-B868B9F75816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F33794A1-84AF-4432-8725-B868B9F75816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62CFC6E0-55A1-47AB-A7AB-4103848E9A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CFC6E0-55A1-47AB-A7AB-4103848E9A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CFC6E0-55A1-47AB-A7AB-4103848E9A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CFC6E0-55A1-47AB-A7AB-4103848E9A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0A9D42-7B3E-4B34-B62C-292BC6CB8A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0A9D42-7B3E-4B34-B62C-292BC6CB8A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0A9D42-7B3E-4B34-B62C-292BC6CB8A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0A9D42-7B3E-4B34-B62C-292BC6CB8A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
